@@ -1,0 +1,7 @@
+
+services:
+  - type: web
+    name: pfac-sistema
+    env: python
+    buildCommand: ""
+    startCommand: "python main.py"
